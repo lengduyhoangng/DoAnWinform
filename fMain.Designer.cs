@@ -81,6 +81,7 @@
             this.panel18 = new System.Windows.Forms.Panel();
             this.dtgvCategory = new System.Windows.Forms.DataGridView();
             this.tpTable = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
             this.cbTableStatus = new System.Windows.Forms.ComboBox();
@@ -118,7 +119,6 @@
             this.panel29 = new System.Windows.Forms.Panel();
             this.dtgvAccount = new System.Windows.Forms.DataGridView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
             this.tcAdmin.SuspendLayout();
             this.tpBill.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -181,7 +181,7 @@
             this.tpBill.Controls.Add(this.panel1);
             this.tpBill.Location = new System.Drawing.Point(4, 22);
             this.tpBill.Name = "tpBill";
-            this.tpBill.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpBill.Padding = new System.Windows.Forms.Padding(3);
             this.tpBill.Size = new System.Drawing.Size(650, 416);
             this.tpBill.TabIndex = 0;
             this.tpBill.Text = "Doanh thu";
@@ -297,7 +297,7 @@
             this.tpFood.Controls.Add(this.panel3);
             this.tpFood.Location = new System.Drawing.Point(4, 22);
             this.tpFood.Name = "tpFood";
-            this.tpFood.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpFood.Padding = new System.Windows.Forms.Padding(3);
             this.tpFood.Size = new System.Drawing.Size(650, 416);
             this.tpFood.TabIndex = 1;
             this.tpFood.Text = "Thức ăn";
@@ -522,7 +522,7 @@
             this.tbFoodCategory.Controls.Add(this.panel18);
             this.tbFoodCategory.Location = new System.Drawing.Point(4, 22);
             this.tbFoodCategory.Name = "tbFoodCategory";
-            this.tbFoodCategory.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tbFoodCategory.Padding = new System.Windows.Forms.Padding(3);
             this.tbFoodCategory.Size = new System.Drawing.Size(650, 416);
             this.tbFoodCategory.TabIndex = 2;
             this.tbFoodCategory.Text = "Danh mục";
@@ -662,11 +662,20 @@
             this.tpTable.Controls.Add(this.panel20);
             this.tpTable.Location = new System.Drawing.Point(4, 22);
             this.tpTable.Name = "tpTable";
-            this.tpTable.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpTable.Padding = new System.Windows.Forms.Padding(3);
             this.tpTable.Size = new System.Drawing.Size(650, 416);
             this.tpTable.TabIndex = 3;
             this.tpTable.Text = "Bàn ăn";
             this.tpTable.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(561, 7);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 46);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "CLMMMMM";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // panel11
             // 
@@ -829,7 +838,7 @@
             this.tpAccount.Controls.Add(this.panel29);
             this.tpAccount.Location = new System.Drawing.Point(4, 22);
             this.tpAccount.Name = "tpAccount";
-            this.tpAccount.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpAccount.Padding = new System.Windows.Forms.Padding(3);
             this.tpAccount.Size = new System.Drawing.Size(650, 416);
             this.tpAccount.TabIndex = 4;
             this.tpAccount.Text = "Tài khoản";
@@ -1006,20 +1015,11 @@
             // 
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(650, 416);
             this.tabPage1.TabIndex = 5;
             this.tabPage1.Text = "Report";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(413, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 46);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "CLMMMMM";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // fMain
             // 
@@ -1027,7 +1027,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(654, 447);
             this.Controls.Add(this.tcAdmin);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fMain";
             this.Text = "QUẢN LÍ";
             this.Load += new System.EventHandler(this.fMain_Load);
