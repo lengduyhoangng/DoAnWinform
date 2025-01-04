@@ -119,6 +119,9 @@
             this.panel29 = new System.Windows.Forms.Panel();
             this.dtgvAccount = new System.Windows.Forms.DataGridView();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.tcAdmin.SuspendLayout();
             this.tpBill.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -670,7 +673,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(561, 7);
+            this.button1.Location = new System.Drawing.Point(382, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 46);
             this.button1.TabIndex = 4;
@@ -679,6 +682,9 @@
             // 
             // panel11
             // 
+            this.panel11.Controls.Add(this.button4);
+            this.panel11.Controls.Add(this.button3);
+            this.panel11.Controls.Add(this.button2);
             this.panel11.Controls.Add(this.panel21);
             this.panel11.Controls.Add(this.panel13);
             this.panel11.Controls.Add(this.panel14);
@@ -1021,6 +1027,33 @@
             this.tabPage1.Text = "Report";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(53, 199);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 46);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "CLMMMMM";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(172, 253);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 46);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "CLMMMMM";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(172, 168);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 46);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "CLMMMMM";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // fMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1182,5 +1215,8 @@
         private System.Windows.Forms.DataGridView dtgvAccount;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
