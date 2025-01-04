@@ -533,6 +533,7 @@
             // 
             // panel12
             // 
+            this.panel12.Controls.Add(this.textBox2);
             this.panel12.Controls.Add(this.panel15);
             this.panel12.Controls.Add(this.panel16);
             this.panel12.Location = new System.Drawing.Point(360, 62);
@@ -542,7 +543,6 @@
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.textBox2);
             this.panel15.Controls.Add(this.label7);
             this.panel15.Location = new System.Drawing.Point(3, 53);
             this.panel15.Name = "panel15";
@@ -551,10 +551,11 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(125, 8);
+            this.textBox2.Location = new System.Drawing.Point(131, 132);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(151, 20);
             this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label7
             // 
@@ -1088,6 +1089,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
             this.tbFoodCategory.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.panel16.ResumeLayout(false);
